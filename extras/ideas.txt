@@ -1,0 +1,7 @@
+Grafo.hpp: tiene una lista de los vertices en total, la lista vertical
+Vertice.hpp: tiene una lista que guarda:
+	? Vertice siguiente
+	? Arista 
+Arista.hpp: guarda:
+	? Ponderacion de la arista
+	? Vertice destino

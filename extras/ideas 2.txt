@@ -1,0 +1,15 @@
+ELIMINAR UN VERTICE:
+
+Primero pasamos por cada uno de los nodos de cada vertice
+en ellos buscaremos el nodo a eliminar
+
+Hacemos todo el lio del cableado para eliminar el vertice de la lista
+	del la lista que tiene el vertice en donde estamos actualmente
+
+Ya que hayan pasado por todas las listas de los vertices, ahora hacemos
+eso mismo pero con la lista que guarda todos los vertices, con el cableado
+	Ten en cuenta que deberás tener un apuntador auxiliar para eliminar
+	ese vertice de la lista del grafo.
+
+Finalmente le damos delete para eliminar el nodo y lo llevamos a nullptr ese
+	apuntador
